@@ -1,0 +1,252 @@
+@import url(reset.css);
+
+/* *GLOBAL */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #161616;
+}
+
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.subtitle {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+/* *HEADER*/
+
+.header {
+    background: #81A36B;
+    padding: 19px 0;
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* *MAIN */
+/* *ABOUT*/
+
+.about {
+    background: #D8D8D6;
+    padding: 0 0 120px;
+}
+
+.about-box {
+    min-height: 1106px;
+}
+
+.about-box-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.about-desc {
+    margin: 174px 0 0;
+    flex: 1 1 50%;
+}
+
+.desc {
+    text-align: justify;
+    margin: 41px 0 0;
+    line-height: 30px;
+}
+
+.about-img {
+    flex: 1 1 50%;
+    min-height: 670px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btns {
+    margin: 20px 0 0;
+
+}
+
+.btns > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.btns > div > a {
+    text-decoration: none;
+    color: inherit;
+    border-radius: 6px;
+    padding: 20px 34px;
+}
+
+.order {
+    background: #81A36B;
+    border: 1px solid transparent;
+}
+
+.help {
+    border: 1px solid #81A36B;
+}
+
+.about-box-2 {
+    margin: 120px auto 0;
+    max-width: 540px;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us-desc {
+    text-align: center;
+    margin: 50px 0 0;
+    line-height: 30px;
+}
+
+/* *BENEFITS */
+
+.benefits {
+    min-height: 282px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: #81A36B;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 90px;
+    padding: 78px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caption {
+    margin: 0 0 20px;
+}
+
+/* *HWW */
+
+.working {
+    background: #D8D8D6;
+    padding: 120px 0;
+}
+
+.working-box {
+    min-height: 1518px;
+}
+
+.working-box-1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.working-img {
+    flex: 1 1 50%;
+    min-height: 560px;
+}
+
+.working-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.working-desc {
+    flex: 1 1 50%;
+    margin: 50px 0 0;
+    line-height: 30px;
+}
+
+.working-box-2 {
+    padding: 120px 0 0;
+    text-align: center;
+}
+.cards {
+    margin: 50px 0 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 6px;
+    background: #81A36B;
+}
+.card > img {
+    border-radius: 6px;
+}
+.card-desc {
+    margin: 23px 0 40px;
+}
+.footer {
+    background: #81A36B;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-title {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.footer-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contacts > p {
+    margin-bottom: 15px;
+}
+.footer-list {
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.media {
+
+}
