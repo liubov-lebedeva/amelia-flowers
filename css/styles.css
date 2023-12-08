@@ -62,23 +62,23 @@ body {
 }
 
 /* *MAIN */
-/* *ABOUT*/
+/* *AMELIA*/
 
-.about {
+.amelia {
     background: #D8D8D6;
-    padding: 0 0 120px;
 }
 
-.about-box {
-    min-height: 1106px;
+.amelia-block {
+    max-width: 1140px;
+    min-height: 670px;
 }
 
-.about-box-1 {
+.amelia-box {
     display: flex;
     gap: 30px;
 }
 
-.about-desc {
+.amelia-desc {
     margin: 174px 0 0;
     flex: 1 1 50%;
 }
@@ -89,12 +89,12 @@ body {
     line-height: 30px;
 }
 
-.about-img {
+.amelia-img {
     flex: 1 1 50%;
     min-height: 670px;
 }
 
-.about-img img {
+.amelia-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -128,8 +128,14 @@ body {
     border: 1px solid #81A36B;
 }
 
-.about-box-2 {
-    margin: 120px auto 0;
+/* *ABOUT */
+
+.about {
+    background: #D8D8D6;
+    padding: 120px 0;
+}
+
+.about-box {
     max-width: 540px;
 }
 
@@ -169,14 +175,15 @@ body {
 
 .working {
     background: #D8D8D6;
-    padding: 120px 0;
+    padding: 120px 0 0;
+}
+
+.working-block {
+    min-height: 560px;
+    max-width: 1140px;
 }
 
 .working-box {
-    min-height: 1518px;
-}
-
-.working-box-1 {
     display: flex;
     gap: 30px;
     align-items: center;
@@ -196,14 +203,24 @@ body {
 
 .working-desc {
     flex: 1 1 50%;
-    margin: 50px 0 0;
     line-height: 30px;
-}
-
-.working-box-2 {
-    padding: 120px 0 0;
     text-align: center;
 }
+
+.working-text {
+    margin: 50px 0 0;
+    text-align: justify;
+}
+
+.works {
+    background: #D8D8D6;
+    padding: 120px 0;
+}
+
+.works-box {
+    text-align: center;
+}
+
 .cards {
     margin: 50px 0 0;
     display: flex;
@@ -217,17 +234,23 @@ body {
     border-radius: 6px;
     background: #81A36B;
 }
+
 .card > img {
     border-radius: 6px;
 }
+
 .card-desc {
     margin: 23px 0 40px;
 }
+
+/* *FOOTER */
+
 .footer {
     background: #81A36B;
     text-align: center;
     padding: 50px 0;
 }
+
 .footer-title {
     font-family: 'Architects Daughter', cursive;
     font-weight: 400;
@@ -235,21 +258,25 @@ body {
     text-transform: capitalize;
     margin-bottom: 25px;
 }
+
 .footer-subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .contacts > p {
     margin-bottom: 15px;
 }
+
 .footer-list {
     display: flex;
     gap: 21px;
     justify-content: center;
     margin-bottom: 15px;
 }
- .footer-list > li > a {
-     display: block;
- }
+
+.footer-list > li > a {
+    display: block;
+}
