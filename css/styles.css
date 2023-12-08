@@ -246,7 +246,6 @@ body {
     justify-content: center;
     margin-bottom: 15px;
 }
-
-.media {
-
-}
+ .footer-list > li > a {
+     display: block;
+ }
