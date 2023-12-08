@@ -233,6 +233,7 @@ body {
     padding: 15px;
     border-radius: 6px;
     background: #81A36B;
+    line-height: 30px;
 }
 
 .card > img {
@@ -240,7 +241,7 @@ body {
 }
 
 .card-desc {
-    margin: 23px 0 40px;
+    margin: 23px 0 25px;
 }
 
 /* *FOOTER */
