@@ -45,14 +45,9 @@ body {
     align-items: center;
 }
 
-.logo {
-
-}
-
 .menu {
     display: flex;
     gap: 30px;
-
 }
 
 .menu a {
@@ -102,7 +97,6 @@ body {
 
 .btns {
     margin: 20px 0 0;
-
 }
 
 .btns > div {
