@@ -254,6 +254,20 @@ body {
     margin-bottom: 15px;
 }
 
+.tel {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.tel > a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footer-list {
     display: flex;
     gap: 21px;
