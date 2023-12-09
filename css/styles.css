@@ -108,13 +108,16 @@ body {
     padding: 20px 34px;
 }
 
-.order {
-    background: #81A36B;
-    border: 1px solid transparent;
+.btn {
+    border: 1px solid #81A36B;
 }
 
-.help {
-    border: 1px solid #81A36B;
+.btn-color {
+    background: #81A36B;
+}
+
+.btn-outline {
+    background: transparent;
 }
 
 /* *ABOUT */
