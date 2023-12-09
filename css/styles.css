@@ -108,11 +108,8 @@ body {
     padding: 20px 34px;
 }
 
-.btn {
-    border: 1px solid #81A36B;
-}
-
 .btn-color {
+    border: 1px solid #81A36B;
     background: #81A36B;
 }
 
