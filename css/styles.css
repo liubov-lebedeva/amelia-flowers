@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1470px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
     color: #161616;
@@ -63,19 +63,14 @@ body {
     background: #D8D8D6;
 }
 
-.amelia-block {
-    max-width: 1140px;
-    min-height: 670px;
-}
-
 .amelia-box {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .amelia-desc {
-    margin: 174px 0 0;
-    flex: 1 1 50%;
+    flex: 1 1 47%;
 }
 
 .desc {
@@ -85,8 +80,8 @@ body {
 }
 
 .amelia-img {
-    flex: 1 1 50%;
-    min-height: 670px;
+    flex: 1 1 47%;
+    height: 670px;
 }
 
 .amelia-img img {
@@ -130,7 +125,7 @@ body {
 }
 
 .about-box {
-    max-width: 540px;
+    max-width: 570px;
 }
 
 .about-us {
@@ -146,7 +141,6 @@ body {
 /* *BENEFITS */
 
 .benefits {
-    min-height: 282px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background: #81A36B;
@@ -154,10 +148,9 @@ body {
 
 .benefits-list {
     display: flex;
-    gap: 90px;
-    padding: 78px;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    padding: 78px 15px;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -173,7 +166,6 @@ body {
 }
 
 .working-block {
-    min-height: 560px;
     max-width: 1140px;
 }
 
@@ -185,8 +177,8 @@ body {
 }
 
 .working-img {
-    flex: 1 1 50%;
-    min-height: 560px;
+    flex: 1 1 47%;
+    height: 560px;
 }
 
 .working-img img {
@@ -196,7 +188,7 @@ body {
 }
 
 .working-desc {
-    flex: 1 1 50%;
+    flex: 1 1 47%;
     line-height: 30px;
     text-align: center;
 }
@@ -224,7 +216,7 @@ body {
 }
 
 .card {
-    padding: 15px;
+    padding: 15px 15px 40px;
     border-radius: 6px;
     background: #81A36B;
     line-height: 30px;
@@ -232,10 +224,11 @@ body {
 
 .card > img {
     border-radius: 6px;
-}
-
-.card-desc {
-    margin: 23px 0 25px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    flex: 1 1 30%;
 }
 
 /* *FOOTER */
@@ -246,19 +239,15 @@ body {
     padding: 50px 0;
 }
 
-.footer-title {
-    font-family: 'Architects Daughter', cursive;
-    font-weight: 400;
-    font-size: 36px;
-    text-transform: capitalize;
-    margin-bottom: 25px;
+.footer-title > a {
+    display: inline-block;
 }
 
 .footer-subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .contacts > p {
