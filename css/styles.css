@@ -31,11 +31,12 @@ html, body {
 
 body {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 14px;
+    background: #D8D8D6;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 0 15px;
     color: #161616;
@@ -43,12 +44,12 @@ body {
 
 .title {
     font-family: 'Architects Daughter';
-    font-size: 62px;
+    font-size: 40px;
 }
 
 .subtitle {
     font-family: 'Architects Daughter';
-    font-size: 32px;
+    font-size: 25px;
     text-transform: capitalize;
 }
 
@@ -79,52 +80,56 @@ body {
 /* *AMELIA*/
 
 .amelia {
-    background: #D8D8D6;
+    position: relative;
 }
 
 .amelia-box {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
-}
-
-.amelia-desc {
-    flex: 1 1 47%;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 auto;
 }
 
 .desc {
-    text-align: justify;
-    margin: 41px 0 0;
-    line-height: 30px;
-}
-
-.amelia-img {
-    flex: 1 1 47%;
-    height: 670px;
+    text-align: center;
+    margin: 30px 0 0;
+    line-height: 20px;
 }
 
 .amelia-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(5px);
 }
 
 .btns {
-    margin: 20px 0 0;
+    margin-top: 20px;
 }
 
 .btns > div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .btns > div > a {
     text-decoration: none;
     color: inherit;
     border-radius: 6px;
-    padding: 20px 34px;
+    padding: 15px 20px;
+    display: inline-block;
 }
 
 .btn-color {
@@ -139,12 +144,12 @@ body {
 /* *ABOUT */
 
 .about {
-    background: #D8D8D6;
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 .about-box {
-    max-width: 570px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .about-us {
@@ -153,8 +158,8 @@ body {
 
 .about-us-desc {
     text-align: center;
-    margin: 50px 0 0;
-    line-height: 30px;
+    margin-top: 20px;
+    line-height: 20px;
 }
 
 /* *BENEFITS */
@@ -297,7 +302,24 @@ body {
 }
 
 @media (min-width: 768px) {
+    /* global */
+    body {
+        font-size: 18px;
+    }
 
+    .container {
+        max-width: 730px;
+    }
+
+    .title {
+        font-size: 62px;
+    }
+
+    .subtitle {
+        font-size: 32px;
+    }
+
+    /* header */
     .header {
         padding: 19px;
     }
@@ -310,70 +332,100 @@ body {
         display: flex;
         gap: 20px;
     }
+
+    /* amelia */
+
+    .desc {
+        text-align: justify;
+        margin: 41px 0 0;
+        line-height: 30px;
+    }
+
+    .desc {
+        margin: 41px 0 0;
+        line-height: 30px;
+    }
+
+    .btns > div {
+        gap: 25px;
+    }
+
+    .btns > div > a {
+        padding: 20px 34px;
+    }
+
+    /* about */
+
+    .about-box {
+        max-width: 570px;
+    }
+
+    .about-us-desc {
+        margin: 50px 0 0;
+        line-height: 30px;
+    }
 }
 
 @media (min-width: 1000px) {
     .menu {
         gap: 30px;
     }
+
+    .container {
+        max-width: 970px;
+    }
+
+    .amelia-box {
+        gap: 30px;
+    }
+
+    .amelia-desc {
+        flex: 1 1 50%;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    .desc {
+        text-align: justify;
+    }
+
+    .amelia-box {
+        padding: 0 0 60px;
+    }
+
+    .amelia-img {
+        flex: 1 1 50%;
+        height: 670px;
+    }
+
+    .amelia-img img {
+        position: static;
+        filter: none;
+    }
+
+    .btns > div {
+        justify-content: flex-start;
+    }
+
+    /* about */
+    .about {
+        padding: 120px 0;
+    }
+
+    .about-box {
+        max-width: 570px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
 }
 
 /*
-.amelia {
-    background: #D8D8D6;
-}
 
-.amelia-box {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
 
-.amelia-desc {
-    flex: 1 1 47%;
-}
-
-.desc {
-    text-align: justify;
-    margin: 41px 0 0;
-    line-height: 30px;
-}
-
-.amelia-img {
-    flex: 1 1 47%;
-    height: 670px;
-}
-
-.amelia-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.btns {
-    margin: 20px 0 0;
-}
-
-.btns > div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 25px;
-}
-
-.btns > div > a {
-    text-decoration: none;
-    color: inherit;
-    border-radius: 6px;
-    padding: 20px 34px;
-}
-
-.btn-color {
-    border: 1px solid #81A36B;
-    background: #81A36B;
-}
-
-.btn-outline {
-    background: transparent;
-}
 */
