@@ -172,9 +172,19 @@ body {
 .benefits-list {
     display: flex;
     gap: 20px;
-    padding: 78px 15px;
-    justify-content: space-between;
+    padding: 40px 15px;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    padding: 20px 0 0;
+}
+
+.benefit-icon {
+    width: 40px;
+    height: 40px;
 }
 
 .caption {
@@ -334,7 +344,6 @@ body {
     }
 
     /* amelia */
-
     .desc {
         text-align: justify;
         margin: 41px 0 0;
@@ -355,7 +364,6 @@ body {
     }
 
     /* about */
-
     .about-box {
         max-width: 570px;
     }
@@ -363,6 +371,12 @@ body {
     .about-us-desc {
         margin: 50px 0 0;
         line-height: 30px;
+    }
+
+    /* benefits */
+    .benefits-list {
+        padding: 70px 15px;
+        justify-content: space-between;
     }
 }
 
