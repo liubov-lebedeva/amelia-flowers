@@ -229,7 +229,7 @@ body {
 
 .working-text {
     margin: 30px 0 0;
-    text-align: justify;
+
 }
 
 /* *WORKS */
@@ -272,7 +272,7 @@ body {
 .footer {
     background: #81A36B;
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .footer-title > a {
@@ -281,8 +281,8 @@ body {
 
 .footer-subtitle {
     font-family: 'Roboto';
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 .contacts > p {
@@ -294,7 +294,7 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 15px;
 }
 
@@ -305,7 +305,7 @@ body {
 
 .footer-list {
     display: flex;
-    gap: 21px;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 15px;
 }
@@ -317,12 +317,31 @@ body {
 @media (min-width: 600px) {
 
     /* benefits */
+
     .benefits-list {
         justify-content: space-between;
     }
 
     .benefits-list div {
         flex: 1 1 30%;
+    }
+
+    /* footer */
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-subtitle {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .tel {
+        gap: 15px;
+    }
+
+    .footer-list {
+        gap: 21px;
     }
 }
 
@@ -338,7 +357,7 @@ body {
     }
 
     .title {
-        font-size: 62px;
+        font-size: 50px;
     }
 
     .subtitle {
@@ -360,12 +379,6 @@ body {
     }
 
     /* amelia */
-    .desc {
-        text-align: justify;
-        margin: 41px 0 0;
-        line-height: 30px;
-    }
-
     .desc {
         margin: 41px 0 0;
         line-height: 30px;
@@ -391,13 +404,10 @@ body {
 
     /* benefits */
     .benefits-list {
-        padding: 70px 15px;
-        justify-content: space-between;
         gap: 20px;
     }
 
     /* works */
-
     .cards {
         flex-wrap: nowrap;
         gap: 20px;
@@ -427,6 +437,7 @@ body {
     }
 
     .title {
+        font-size: 62px;
         text-align: left;
     }
 
@@ -454,7 +465,7 @@ body {
 
     /* about */
     .about {
-        padding: 60px 0;
+        padding: 60px 0 120px;
     }
 
     .about-box {
@@ -462,9 +473,14 @@ body {
     }
 
     /* benefits */
+    .benefits-list {
+        flex-wrap: nowrap;
+        padding: 70px 15px;
+        justify-content: space-between;
+    }
     .benefit-icon {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     /* working */
@@ -494,6 +510,7 @@ body {
 
     .working-text {
         margin: 50px 0 0;
+        text-align: justify;
     }
 
     /* works */
@@ -520,13 +537,14 @@ body {
     }
 
     /* benefits */
-    .benefits-list {
-        flex-wrap: nowrap;
+    .benefit-icon {
+        width: 80px;
+        height: 80px;
     }
 
     /* works */
     .works {
-        padding: 120px 0;
+        padding: 60px 0 120px;
     }
 
     .works-box {
@@ -534,12 +552,7 @@ body {
     }
 
     /* works */
-
     .cards {
         gap: 30px;
     }
 }
-
-/*
-
-*/
