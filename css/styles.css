@@ -314,6 +314,12 @@ body {
 .tel > a {
     text-decoration: none;
     color: inherit;
+    transition: all .3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.tel > a:hover {
+    color: #D8D8D6;
+    transform: scale(1.1);
 }
 
 .footer-list {
@@ -325,10 +331,16 @@ body {
 
 .footer-list > li > a {
     display: block;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    fill: #161616;
     transition: all .3s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
-.footer-list > li > a:hover {
+.footer-list > li > a:hover > .footer-icon {
     fill: #D8D8D6;
 }
 
