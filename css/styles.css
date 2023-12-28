@@ -66,6 +66,10 @@ body {
     align-items: center;
 }
 
+.header-icon {
+    display: inline-block;
+}
+
 .menu {
     display: none;
 }
